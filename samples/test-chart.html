@@ -1,0 +1,58 @@
+<canvas id="myChart" width="800" height="200"></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+<script src="../bower_components/Chart.Scatter.js/Chart.Scatter.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<script>
+    Chart.types.Line.extend({
+        name: "LineAlt",
+        initialize: function(data) {
+            Chart.types.Line.prototype.initialize.apply(this, arguments);
+            this.eachPoints(function(point, index) {
+                Chart.helpers.extend(point, {
+                    x: this.scale.calculateX(point.value),
+                    y: this.scale.calculateY(0)
+                });
+                point.save();
+            }, this);
+        }
+    });
+
+
+    var ctx = document.getElementById("myChart").getContext("2d");
+    
+    data = {"labels":[0],"datasets":[{"fillColor":"rgba(220,220,220,0.2)","strokeColor":"rgba(220,220,220,1)","pointColor":"rgba(220,220,220,1)","pointStrokeColor":"#fff","pointHighlightFill":"#fff","pointHighlightStroke":"rgba(220,220,220,1)","data":[{x:0,y:0}],"label":"GTown"},{"fillColor":"rgba(151,187,205,0.2)","strokeColor":"rgba(151,187,205,1)","pointColor":"rgba(151,187,205,1)","pointStrokeColor":"#fff","pointHighlightFill":"#fff","pointHighlightStroke":"rgba(151,187,205,1)","data":[{x:0,y:0}],"label":"Marq"}]}
+    
+    var myNewChart = new Chart(ctx).Scatter(data.datasets, {
+            animationEasing: "easeOutQuart",
+            pointDot: false,
+            bezierCurveTension: 0.9,
+            bezierCurve: false,
+            scaleSteps: 10,
+            scaleStartValue: 0,
+            //scaleOverride: true
+        });
+</script>
+
+<script>
+    var myNewChart, maxTime = 0, maxScore = 0, change= false;
+    function updateMe(){
+    jQuery.getJSON("../chart-data.json", function(data) {
+        for(var i = 0; i < data.labels.length; i++) {
+            if(data.datasets[0].data[i].x > maxTime) {
+                myNewChart.datasets[0].addPoint(data.datasets[0].data[i].x, data.datasets[0].data[i].y);
+                myNewChart.datasets[1].addPoint(data.datasets[1].data[i].x, data.datasets[1].data[i].y);
+                maxTime = Math.max(maxTime, data.datasets[0].data[i].x);
+                maxScore = Math.max(maxScore, data.datasets[0].data[i].y, data.datasets[1].data[i].y);
+                change = true;
+            }
+        }
+        //myNewChart.options.scaleStepWidth = maxScore / 10;
+        if(change) { myNewChart.update(); }
+        change = false;
+    });
+    }
+    
+    setInterval(updateMe, 1000); updateMe();
+</script>

@@ -17,6 +17,6 @@ For example, if there's a media timeout, wait 90 or 360 seconds before grabbing 
 
 Look to see how SI does it. It's possible they already have an algorithm for it -- coverageLevelId of 7 looks like updates every 10-15 minutes?
 
-## All Games for a today?
+## All Games for today?
 
 http://www.si.com/pbp/liveupdate?json=1&sport=basketball%2Fcbk&box=true&pbp=true&linescore=true

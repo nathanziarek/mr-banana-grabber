@@ -1,0 +1,366 @@
+playId,playEvent.playEventId,playEvent.name,playEvent.playDetail.playDetailId,playEvent.playDetail.name,playText
+1,,,,,Starting Lineup
+1,,,,,Starting Lineup
+1,,,,,Starting Lineup
+1,,,,,Starting Lineup
+1,,,,,Starting Lineup
+1,,,,,Starting Lineup
+1,,,,,Starting Lineup
+1,,,,,Starting Lineup
+1,,,,,Starting Lineup
+1,,,,,Starting Lineup
+2,14,Start Period,,,Start of the 1st Half
+10,8,Foul,4,Offensive,Offensive foul committed by Desi Rodriguez.
+11,7,Turnover,,,Desi Rodriguez with a turnover - 
+13,4,Field Goal Missed,45,Jump Shot,Luke Fischer misses a jump shot from 5 feet out.
+14,6,Defensive Rebound,,,Angel Delgado with a defensive rebound.
+15,4,Field Goal Missed,45,Jump Shot,Angel Delgado misses a jump shot from 16 feet out.
+16,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+24,7,Turnover,6,Double Dribble,Haanif Cheatham with a turnover - Double Dribble
+31,8,Foul,1,Personal,Personal foul committed by Traci Carter.
+37,4,Field Goal Missed,45,Jump Shot,Khadeen Carrington misses a jump shot from 16 feet out.
+38,5,Offensive Rebound,,,Isaiah Whitehead with an offensive rebound.
+39,4,Field Goal Missed,45,Jump Shot,Isaiah Whitehead misses a jump shot from 6 feet out.
+40,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+44,8,Foul,1,Personal,Personal foul committed by Sandy Cohen III.
+44,4,Field Goal Missed,40,Layup Shot,Sandy Cohen III misses a layup.
+44,6,Defensive Rebound,,,Khadeen Carrington with a defensive rebound.
+51,3,Field Goal Made,45,Jump Shot,Isaiah Whitehead makes a 3-point jump shot from 23 feet out.
+54,4,Field Goal Missed,45,Jump Shot,Henry Ellenson misses a jump shot from 7 feet out.
+55,6,Defensive Rebound,,,Khadeen Carrington with a defensive rebound.
+57,3,Field Goal Made,40,Layup Shot,Desi Rodriguez makes a layup. Isaiah Whitehead with the assist.
+58,3,Field Goal Made,40,Layup Shot,Haanif Cheatham makes a layup. Henry Ellenson with the assist.
+59,3,Field Goal Made,45,Jump Shot,Isaiah Whitehead makes a jump shot from 18 feet out. Desi Rodriguez with the assist.
+61,3,Field Goal Made,45,Jump Shot,Luke Fischer makes a jump shot from 9 feet out.
+62,4,Field Goal Missed,40,Layup Shot,Desi Rodriguez misses a layup.
+63,5,Offensive Rebound,,,Angel Delgado with an offensive rebound.
+64,4,Field Goal Missed,40,Layup Shot,Angel Delgado misses a layup.
+65,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+66,3,Field Goal Made,40,Layup Shot,Luke Fischer makes a layup. Traci Carter with the assist.
+67,3,Field Goal Made,40,Layup Shot,Khadeen Carrington makes a layup.
+68,3,Field Goal Made,40,Layup Shot,Khadeen Carrington makes a layup.
+68,7,Turnover,2,Lost Ball,Khadeen Carrington steals the ball from Traci Carter.
+71,4,Field Goal Missed,45,Jump Shot,Henry Ellenson misses a jump shot from 17 feet out.
+72,6,Defensive Rebound,,,Angel Delgado with a defensive rebound.
+75,4,Field Goal Missed,40,Layup Shot,Desi Rodriguez misses a layup.
+76,5,Offensive Rebound,,,Desi Rodriguez with an offensive rebound.
+77,8,Foul,2,Shooting,Shooting foul committed by Luke Fischer.
+77,11,Timeout,3,Official TV,Official TV timeout.
+89,1,Free Throw Made,11,Free Throw 1 of 2,Desi Rodriguez makes free throw 1 of 2.
+90,2,Free Throw Missed,12,Free Throw 2 of 2,Desi Rodriguez misses free throw 2 of 2.
+91,6,Defensive Rebound,,,Luke Fischer with a defensive rebound.
+93,4,Field Goal Missed,45,Jump Shot,Haanif Cheatham misses a jump shot from 2 feet out.
+94,6,Defensive Rebound,,,Isaiah Whitehead with a defensive rebound.
+95,3,Field Goal Made,40,Layup Shot,Derrick Gordon makes a layup. Isaiah Whitehead with the assist.
+109,7,Turnover,1,Bad Pass,JaJuan Johnson with a turnover - Bad Pass
+120,4,Field Goal Missed,40,Layup Shot,Desi Rodriguez misses a layup.
+121,5,Offensive Rebound,,,Desi Rodriguez with an offensive rebound.
+122,3,Field Goal Made,40,Layup Shot,Desi Rodriguez makes a layup.
+123,8,Foul,2,Shooting,Shooting foul committed by Haanif Cheatham.
+124,1,Free Throw Made,10,Free Throw 1 of 1,Desi Rodriguez makes free throw 1 of 1.
+135,4,Field Goal Missed,45,Jump Shot,Henry Ellenson misses a 3-point jump shot from 23 feet out.
+136,6,Defensive Rebound,,,Khadeen Carrington with a defensive rebound.
+137,4,Field Goal Missed,45,Jump Shot,Derrick Gordon misses a jump shot from 6 feet out.
+138,5,Offensive Rebound,,,Derrick Gordon with an offensive rebound.
+139,4,Field Goal Missed,45,Jump Shot,Khadeen Carrington misses a jump shot from 6 feet out.
+140,6,Defensive Rebound,,,Traci Carter with a defensive rebound.
+144,8,Foul,2,Shooting,Shooting foul committed by Veer Singh.
+145,1,Free Throw Made,11,Free Throw 1 of 2,Duane Wilson makes free throw 1 of 2.
+146,1,Free Throw Made,12,Free Throw 2 of 2,Duane Wilson makes free throw 2 of 2.
+154,4,Field Goal Missed,45,Jump Shot,Veer Singh misses a 3-point jump shot from 23 feet out.
+155,5,Offensive Rebound,,,Ismael Sanogo with an offensive rebound.
+166,8,Foul,1,Personal,Personal foul committed by Traci Carter.
+170,7,Turnover,2,Lost Ball,Duane Wilson steals the ball from Veer Singh.
+175,3,Field Goal Made,40,Layup Shot,Duane Wilson makes a layup.
+186,3,Field Goal Made,45,Jump Shot,Desi Rodriguez makes a jump shot from 7 feet out. Isaiah Whitehead with the assist.
+189,4,Field Goal Missed,40,Layup Shot,Ismael Sanogo blocks a JaJuan Johnson layup.
+190,5,Offensive Rebound,,,Golden Eagles with an offensive rebound.
+195,4,Field Goal Missed,45,Jump Shot,Duane Wilson misses a 3-point jump shot from 22 feet out.
+196,6,Defensive Rebound,,,Ismael Sanogo with a defensive rebound.
+197,7,Turnover,2,Lost Ball,Haanif Cheatham steals the ball from Ismael Sanogo.
+198,3,Field Goal Made,40,Layup Shot,Haanif Cheatham makes a layup.
+202,3,Field Goal Made,45,Jump Shot,Isaiah Whitehead makes a 3-point jump shot from 23 feet out. Khadeen Carrington with the assist.
+206,8,Foul,1,Personal,Personal foul committed by Isaiah Whitehead.
+214,3,Field Goal Made,40,Layup Shot,Henry Ellenson makes a layup. Luke Fischer with the assist.
+216,7,Turnover,2,Lost Ball,Angel Delgado with a turnover - Lost Ball
+217,11,Timeout,3,Official TV,Official TV timeout.
+221,4,Field Goal Missed,40,Layup Shot,Henry Ellenson misses a layup.
+222,5,Offensive Rebound,,,Henry Ellenson with an offensive rebound.
+223,3,Field Goal Made,40,Layup Shot,Luke Fischer makes a layup.
+223,5,Offensive Rebound,,,Luke Fischer with an offensive rebound.
+223,4,Field Goal Missed,53,Tip Shot,Henry Ellenson misses a tip shot from 2 feet out.
+223,4,Field Goal Missed,53,Tip Shot,Henry Ellenson misses a tip shot from 1 foot out.
+223,5,Offensive Rebound,,,Henry Ellenson with an offensive rebound.
+233,7,Turnover,3,Out of Bounds,Khadeen Carrington with a turnover - Out of Bounds
+245,8,Foul,4,Offensive,Offensive foul committed by Henry Ellenson.
+246,7,Turnover,,,Henry Ellenson with a turnover - 
+253,7,Turnover,3,Out of Bounds,Khadeen Carrington with a turnover - Out of Bounds
+257,4,Field Goal Missed,45,Jump Shot,Duane Wilson misses a jump shot from 14 feet out.
+258,6,Defensive Rebound,,,Angel Delgado with a defensive rebound.
+261,8,Foul,2,Shooting,Shooting foul committed by Sandy Cohen III.
+262,1,Free Throw Made,8,Free Throw 1st of 1-and-1,Desi Rodriguez makes free throw 1st of 1-and-1.
+264,1,Free Throw Made,9,Free Throw 2nd of 1-and-1,Desi Rodriguez makes free throw 2nd of 1-and-1.
+266,3,Field Goal Made,40,Layup Shot,Haanif Cheatham makes a layup. JaJuan Johnson with the assist.
+267,4,Field Goal Missed,45,Jump Shot,Angel Delgado misses a jump shot from 4 feet out.
+268,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+269,3,Field Goal Made,40,Layup Shot,JaJuan Johnson makes a layup.
+270,3,Field Goal Made,45,Jump Shot,Desi Rodriguez makes a jump shot from 17 feet out. Ismael Sanogo with the assist.
+272,7,Turnover,2,Lost Ball,Ismael Sanogo steals the ball from Luke Fischer.
+274,4,Field Goal Missed,45,Jump Shot,Khadeen Carrington misses a jump shot from 19 feet out.
+275,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+283,8,Foul,4,Offensive,Offensive foul committed by JaJuan Johnson.
+284,7,Turnover,,,JaJuan Johnson with a turnover - 
+298,4,Field Goal Missed,40,Layup Shot,Ismael Sanogo misses a layup.
+299,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+303,8,Foul,1,Personal,Personal foul committed by Ismael Sanogo.
+308,8,Foul,1,Personal,Personal foul committed by Braeden Anderson.
+310,3,Field Goal Made,48,Dunk Shot,Luke Fischer dunks. Henry Ellenson with the assist.
+311,7,Turnover,2,Lost Ball,Haanif Cheatham steals the ball from Isaiah Whitehead.
+316,3,Field Goal Made,40,Layup Shot,Duane Wilson makes a layup. Haanif Cheatham with the assist.
+317,8,Foul,2,Shooting,Shooting foul committed by Derrick Gordon.
+317,11,Timeout,3,Official TV,Official TV timeout.
+320,1,Free Throw Made,10,Free Throw 1 of 1,Duane Wilson makes free throw 1 of 1.
+339,4,Field Goal Missed,45,Jump Shot,Isaiah Whitehead misses a 3-point jump shot from 24 feet out.
+340,5,Offensive Rebound,,,Veer Singh with an offensive rebound.
+342,8,Foul,2,Shooting,Shooting foul committed by Haanif Cheatham.
+343,1,Free Throw Made,11,Free Throw 1 of 2,Isaiah Whitehead makes free throw 1 of 2.
+344,1,Free Throw Made,12,Free Throw 2 of 2,Isaiah Whitehead makes free throw 2 of 2.
+346,4,Field Goal Missed,45,Jump Shot,Duane Wilson misses a 3-point jump shot from 24 feet out.
+347,6,Defensive Rebound,,,Khadeen Carrington with a defensive rebound.
+348,7,Turnover,2,Lost Ball,Henry Ellenson steals the ball from Veer Singh.
+349,3,Field Goal Made,40,Layup Shot,Haanif Cheatham makes a layup. Duane Wilson with the assist.
+355,8,Foul,1,Personal,Personal foul committed by Luke Fischer.
+357,1,Free Throw Made,11,Free Throw 1 of 2,Angel Delgado makes free throw 1 of 2.
+358,1,Free Throw Made,12,Free Throw 2 of 2,Angel Delgado makes free throw 2 of 2.
+362,8,Foul,2,Shooting,Shooting foul committed by Michael Nzei.
+364,1,Free Throw Made,8,Free Throw 1st of 1-and-1,Henry Ellenson makes free throw 1st of 1-and-1.
+365,2,Free Throw Missed,9,Free Throw 2nd of 1-and-1,Henry Ellenson misses free throw 2nd of 1-and-1.
+366,6,Defensive Rebound,,,Khadeen Carrington with a defensive rebound.
+368,4,Field Goal Missed,40,Layup Shot,Khadeen Carrington misses a layup.
+369,6,Defensive Rebound,,,Duane Wilson with a defensive rebound.
+370,7,Turnover,2,Lost Ball,Khadeen Carrington steals the ball from Duane Wilson.
+371,3,Field Goal Made,40,Layup Shot,Khadeen Carrington makes a layup.
+373,8,Foul,2,Shooting,Shooting foul committed by Michael Nzei.
+375,1,Free Throw Made,11,Free Throw 1 of 2,Henry Ellenson makes free throw 1 of 2.
+376,1,Free Throw Made,12,Free Throw 2 of 2,Henry Ellenson makes free throw 2 of 2.
+379,7,Turnover,2,Lost Ball,Desi Rodriguez with a turnover - Lost Ball
+390,3,Field Goal Made,40,Layup Shot,Haanif Cheatham makes a layup.
+393,4,Field Goal Missed,40,Layup Shot,Angel Delgado misses a layup.
+394,5,Offensive Rebound,,,Ismael Sanogo with an offensive rebound.
+396,3,Field Goal Made,53,Tip Shot,Ismael Sanogo makes a tip shot from 2 feet out.
+400,7,Turnover,2,Lost Ball,Desi Rodriguez steals the ball from Duane Wilson.
+401,8,Foul,2,Shooting,Shooting foul committed by Wally Ellenson.
+402,1,Free Throw Made,11,Free Throw 1 of 2,Desi Rodriguez makes free throw 1 of 2.
+403,1,Free Throw Made,12,Free Throw 2 of 2,Desi Rodriguez makes free throw 2 of 2.
+405,4,Field Goal Missed,45,Jump Shot,JaJuan Johnson misses a 3-point jump shot from 24 feet out.
+406,6,Defensive Rebound,,,Ismael Sanogo with a defensive rebound.
+410,7,Turnover,4,Traveling,Khadeen Carrington with a turnover - Traveling
+412,4,Field Goal Missed,45,Jump Shot,Henry Ellenson misses a jump shot from 12 feet out.
+413,6,Defensive Rebound,,,Ismael Sanogo with a defensive rebound.
+414,4,Field Goal Missed,45,Jump Shot,Desi Rodriguez misses a 3-point jump shot from 24 feet out.
+415,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+434,8,Foul,2,Shooting,Shooting foul committed by Desi Rodriguez.
+434,11,Timeout,3,Official TV,Official TV timeout.
+442,2,Free Throw Missed,11,Free Throw 1 of 2,JaJuan Johnson misses free throw 1 of 2.
+443,5,Offensive Rebound,,,Golden Eagles with an offensive rebound.
+444,1,Free Throw Made,12,Free Throw 2 of 2,JaJuan Johnson makes free throw 2 of 2.
+446,3,Field Goal Made,45,Jump Shot,Angel Delgado makes a jump shot from 5 feet out.
+449,8,Foul,4,Offensive,Offensive foul committed by JaJuan Johnson.
+450,7,Turnover,,,JaJuan Johnson with a turnover - 
+458,7,Turnover,2,Lost Ball,Henry Ellenson steals the ball from Ismael Sanogo.
+459,3,Field Goal Made,40,Layup Shot,Haanif Cheatham makes a layup. Henry Ellenson with the assist.
+461,4,Field Goal Missed,45,Jump Shot,Henry Ellenson blocks a Angel Delgado jump shot from 5 feet out.
+462,5,Offensive Rebound,,,Derrick Gordon with an offensive rebound.
+463,8,Foul,4,Offensive,Offensive foul committed by Derrick Gordon.
+464,7,Turnover,,,Derrick Gordon with a turnover - 
+482,3,Field Goal Made,45,Jump Shot,Haanif Cheatham makes a jump shot from 12 feet out.
+491,4,Field Goal Missed,45,Jump Shot,Desi Rodriguez misses a jump shot from 9 feet out.
+492,5,Offensive Rebound,,,Angel Delgado with an offensive rebound.
+493,4,Field Goal Missed,53,Tip Shot,Angel Delgado misses a tip shot from 1 foot out.
+494,6,Defensive Rebound,,,Wally Ellenson with a defensive rebound.
+496,4,Field Goal Missed,45,Jump Shot,Henry Ellenson misses a 3-point jump shot from 23 feet out.
+497,5,Offensive Rebound,,,Wally Ellenson with an offensive rebound.
+498,3,Field Goal Made,53,Tip Shot,Wally Ellenson makes a tip shot from 1 foot out.
+503,11,Timeout,1,Regular,Pirates take a full timeout.
+513,4,Field Goal Missed,55,Hook Shot,Isaiah Whitehead misses a hook shot from 2 feet out.
+514,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+519,8,Foul,2,Shooting,Shooting foul committed by Desi Rodriguez.
+520,2,Free Throw Missed,11,Free Throw 1 of 2,Haanif Cheatham misses free throw 1 of 2.
+521,5,Offensive Rebound,,,Golden Eagles with an offensive rebound.
+522,1,Free Throw Made,12,Free Throw 2 of 2,Haanif Cheatham makes free throw 2 of 2.
+524,8,Foul,2,Shooting,Shooting foul committed by Sacar Anim.
+525,2,Free Throw Missed,11,Free Throw 1 of 2,Isaiah Whitehead misses free throw 1 of 2.
+526,5,Offensive Rebound,,,Pirates with an offensive rebound.
+527,1,Free Throw Made,12,Free Throw 2 of 2,Isaiah Whitehead makes free throw 2 of 2.
+533,4,Field Goal Missed,45,Jump Shot,Wally Ellenson misses a 3-point jump shot from 23 feet out.
+534,6,Defensive Rebound,,,Khadeen Carrington with a defensive rebound.
+538,15,End Period,,,End of the 1st Half
+556,14,Start Period,,,Start of the 2nd Half
+558,4,Field Goal Missed,40,Layup Shot,Henry Ellenson misses a layup.
+559,6,Defensive Rebound,,,Isaiah Whitehead with a defensive rebound.
+560,3,Field Goal Made,45,Jump Shot,Ismael Sanogo makes a jump shot from 4 feet out.
+571,7,Turnover,4,Traveling,Luke Fischer with a turnover - Traveling
+575,4,Field Goal Missed,45,Jump Shot,Isaiah Whitehead misses a jump shot from 15 feet out.
+576,6,Defensive Rebound,,,Duane Wilson with a defensive rebound.
+577,4,Field Goal Missed,45,Jump Shot,Duane Wilson misses a jump shot from 10 feet out.
+578,5,Offensive Rebound,,,Luke Fischer with an offensive rebound.
+579,3,Field Goal Made,48,Dunk Shot,Luke Fischer dunks.
+580,3,Field Goal Made,45,Jump Shot,Veer Singh makes a 3-point jump shot from 24 feet out. Isaiah Whitehead with the assist.
+581,4,Field Goal Missed,55,Hook Shot,Luke Fischer misses a hook shot from 3 feet out.
+582,6,Defensive Rebound,,,Angel Delgado with a defensive rebound.
+583,7,Turnover,2,Lost Ball,Sandy Cohen III steals the ball from Isaiah Whitehead.
+584,3,Field Goal Made,45,Jump Shot,Duane Wilson makes a jump shot from 17 feet out.
+585,4,Field Goal Missed,40,Layup Shot,Angel Delgado misses a layup.
+586,5,Offensive Rebound,,,Ismael Sanogo with an offensive rebound.
+588,4,Field Goal Missed,40,Layup Shot,Henry Ellenson blocks a Ismael Sanogo layup.
+589,6,Defensive Rebound,,,Luke Fischer with a defensive rebound.
+590,8,Foul,1,Personal,Personal foul committed by Khadeen Carrington.
+600,4,Field Goal Missed,40,Layup Shot,Haanif Cheatham misses a layup.
+601,6,Defensive Rebound,,,Angel Delgado with a defensive rebound.
+604,4,Field Goal Missed,45,Jump Shot,Isaiah Whitehead misses a 3-point jump shot from 23 feet out.
+605,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+606,8,Foul,1,Personal,Personal foul committed by Veer Singh.
+614,4,Field Goal Missed,40,Layup Shot,Duane Wilson misses a layup.
+615,6,Defensive Rebound,,,Ismael Sanogo with a defensive rebound.
+616,4,Field Goal Missed,45,Jump Shot,Veer Singh misses a jump shot from 15 feet out.
+617,5,Offensive Rebound,,,Ismael Sanogo with an offensive rebound.
+618,3,Field Goal Made,45,Jump Shot,Khadeen Carrington makes a 3-point jump shot from 24 feet out. Ismael Sanogo with the assist.
+619,4,Field Goal Missed,45,Jump Shot,Duane Wilson misses a 3-point jump shot from 24 feet out.
+620,6,Defensive Rebound,,,Veer Singh with a defensive rebound.
+623,8,Foul,2,Shooting,Shooting foul committed by Haanif Cheatham.
+623,11,Timeout,3,Official TV,Official TV timeout.
+626,1,Free Throw Made,11,Free Throw 1 of 2,Isaiah Whitehead makes free throw 1 of 2.
+627,2,Free Throw Missed,12,Free Throw 2 of 2,Isaiah Whitehead misses free throw 2 of 2.
+628,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+633,4,Field Goal Missed,45,Jump Shot,JaJuan Johnson misses a jump shot from 9 feet out.
+634,5,Offensive Rebound,,,JaJuan Johnson with an offensive rebound.
+635,3,Field Goal Made,40,Layup Shot,JaJuan Johnson makes a layup.
+636,4,Field Goal Missed,45,Jump Shot,Isaiah Whitehead misses a 3-point jump shot from 24 feet out.
+637,6,Defensive Rebound,,,Henry Ellenson with a defensive rebound.
+641,8,Foul,1,Personal,Personal foul committed by Veer Singh.
+650,4,Field Goal Missed,45,Jump Shot,Traci Carter misses a jump shot from 17 feet out.
+651,6,Defensive Rebound,,,Derrick Gordon with a defensive rebound.
+660,4,Field Goal Missed,40,Layup Shot,Desi Rodriguez misses a layup.
+661,5,Offensive Rebound,,,Desi Rodriguez with an offensive rebound.
+662,4,Field Goal Missed,53,Tip Shot,Desi Rodriguez misses a tip shot from 1 foot out.
+663,5,Offensive Rebound,,,Desi Rodriguez with an offensive rebound.
+664,3,Field Goal Made,53,Tip Shot,Desi Rodriguez makes a tip shot from 1 foot out.
+665,8,Foul,2,Shooting,Shooting foul committed by Henry Ellenson.
+666,1,Free Throw Made,10,Free Throw 1 of 1,Desi Rodriguez makes free throw 1 of 1.
+686,4,Field Goal Missed,45,Jump Shot,JaJuan Johnson misses a jump shot from 15 feet out.
+687,6,Defensive Rebound,,,Khadeen Carrington with a defensive rebound.
+692,7,Turnover,1,Bad Pass,Khadeen Carrington with a turnover - Bad Pass
+696,4,Field Goal Missed,55,Hook Shot,Luke Fischer misses a hook shot from 4 feet out.
+697,6,Defensive Rebound,,,Angel Delgado with a defensive rebound.
+701,8,Foul,2,Shooting,Shooting foul committed by Duane Wilson.
+702,1,Free Throw Made,11,Free Throw 1 of 2,Desi Rodriguez makes free throw 1 of 2.
+703,1,Free Throw Made,12,Free Throw 2 of 2,Desi Rodriguez makes free throw 2 of 2.
+705,3,Field Goal Made,40,Layup Shot,Henry Ellenson makes a layup.
+706,3,Field Goal Made,40,Layup Shot,Ismael Sanogo makes a layup. Isaiah Whitehead with the assist.
+707,4,Field Goal Missed,40,Layup Shot,Sandy Cohen III misses a layup.
+708,6,Defensive Rebound,,,Isaiah Whitehead with a defensive rebound.
+721,7,Turnover,2,Lost Ball,Sandy Cohen III steals the ball from Isaiah Whitehead.
+725,8,Foul,4,Offensive,Offensive foul committed by Sandy Cohen III.
+726,7,Turnover,5,Offensive Foul-Charge,Sandy Cohen III is charged with a turnover due to a foul.
+731,11,Timeout,3,Official TV,Official TV timeout.
+735,7,Turnover,4,Traveling,Angel Delgado with a turnover - Traveling
+737,4,Field Goal Missed,40,Layup Shot,Angel Delgado blocks a Haanif Cheatham layup.
+738,6,Defensive Rebound,,,Derrick Gordon with a defensive rebound.
+740,8,Foul,4,Offensive,Offensive foul committed by Angel Delgado.
+741,7,Turnover,,,Angel Delgado with a turnover - 
+753,4,Field Goal Missed,40,Layup Shot,Henry Ellenson misses a layup.
+754,6,Defensive Rebound,,,Derrick Gordon with a defensive rebound.
+755,4,Field Goal Missed,45,Jump Shot,Derrick Gordon misses a jump shot from 3 feet out.
+756,6,Defensive Rebound,,,Luke Fischer with a defensive rebound.
+764,3,Field Goal Made,45,Jump Shot,Duane Wilson makes a jump shot from 3 feet out.
+766,8,Foul,2,Shooting,Shooting foul committed by Desi Rodriguez.
+767,2,Free Throw Missed,10,Free Throw 1 of 1,Duane Wilson misses free throw 1 of 1.
+768,6,Defensive Rebound,,,Derrick Gordon with a defensive rebound.
+775,3,Field Goal Made,40,Layup Shot,Angel Delgado makes a layup. Isaiah Whitehead with the assist.
+780,4,Field Goal Missed,45,Jump Shot,Sandy Cohen III misses a 3-point jump shot from 22 feet out.
+781,6,Defensive Rebound,,,Pirates with a defensive rebound.
+783,3,Field Goal Made,45,Jump Shot,Derrick Gordon makes a jump shot from 5 feet out. Khadeen Carrington with the assist.
+786,11,Timeout,1,Regular,Golden Eagles take a full timeout.
+799,8,Foul,1,Personal,Personal foul committed by Ismael Sanogo.
+804,3,Field Goal Made,45,Jump Shot,Haanif Cheatham makes a jump shot from 5 feet out.
+806,4,Field Goal Missed,48,Dunk Shot,Luke Fischer blocks a Ismael Sanogo dunk.
+807,5,Offensive Rebound,,,Angel Delgado with an offensive rebound.
+809,8,Foul,2,Shooting,Shooting foul committed by Henry Ellenson.
+810,2,Free Throw Missed,11,Free Throw 1 of 2,Angel Delgado misses free throw 1 of 2.
+811,5,Offensive Rebound,,,Pirates with an offensive rebound.
+812,1,Free Throw Made,12,Free Throw 2 of 2,Angel Delgado makes free throw 2 of 2.
+816,7,Turnover,4,Traveling,Luke Fischer with a turnover - Traveling
+818,4,Field Goal Missed,45,Jump Shot,Khadeen Carrington misses a jump shot from 9 feet out.
+819,6,Defensive Rebound,,,Luke Fischer with a defensive rebound.
+825,7,Turnover,2,Lost Ball,Duane Wilson with a turnover - Lost Ball
+834,3,Field Goal Made,45,Jump Shot,Derrick Gordon makes a 3-point jump shot from 23 feet out. Khadeen Carrington with the assist.
+836,4,Field Goal Missed,40,Layup Shot,Michael Nzei blocks a Luke Fischer layup.
+837,5,Offensive Rebound,,,Golden Eagles with an offensive rebound.
+838,11,Timeout,3,Official TV,Official TV timeout.
+839,8,Foul,2,Shooting,Shooting foul committed by Derrick Gordon.
+840,1,Free Throw Made,11,Free Throw 1 of 2,Duane Wilson makes free throw 1 of 2.
+842,1,Free Throw Made,12,Free Throw 2 of 2,Duane Wilson makes free throw 2 of 2.
+851,4,Field Goal Missed,45,Jump Shot,Duane Wilson blocks a Isaiah Whitehead jump shot from 4 feet out.
+852,6,Defensive Rebound,,,Luke Fischer with a defensive rebound.
+856,4,Field Goal Missed,45,Jump Shot,Henry Ellenson misses a jump shot from 12 feet out.
+857,6,Defensive Rebound,,,Angel Delgado with a defensive rebound.
+858,7,Turnover,2,Lost Ball,Duane Wilson steals the ball from Derrick Gordon.
+859,7,Turnover,2,Lost Ball,Derrick Gordon steals the ball from Duane Wilson.
+860,7,Turnover,2,Lost Ball,Henry Ellenson steals the ball from Isaiah Whitehead.
+861,4,Field Goal Missed,45,Jump Shot,Duane Wilson misses a 3-point jump shot from 23 feet out.
+862,6,Defensive Rebound,,,Khadeen Carrington with a defensive rebound.
+867,4,Field Goal Missed,45,Jump Shot,Khadeen Carrington misses a jump shot from 14 feet out.
+870,5,Offensive Rebound,,,Khadeen Carrington with an offensive rebound.
+874,8,Foul,1,Personal,Personal foul committed by Haanif Cheatham.
+877,8,Foul,2,Shooting,Shooting foul committed by Luke Fischer.
+878,1,Free Throw Made,11,Free Throw 1 of 2,Angel Delgado makes free throw 1 of 2.
+879,1,Free Throw Made,12,Free Throw 2 of 2,Angel Delgado makes free throw 2 of 2.
+884,8,Foul,4,Offensive,Offensive foul committed by Henry Ellenson.
+885,7,Turnover,,,Henry Ellenson with a turnover - 
+892,3,Field Goal Made,48,Dunk Shot,Ismael Sanogo dunks. Isaiah Whitehead with the assist.
+902,11,Timeout,1,Regular,Golden Eagles take a full timeout.
+909,4,Field Goal Missed,45,Jump Shot,Traci Carter misses a jump shot from 16 feet out.
+910,6,Defensive Rebound,,,Khadeen Carrington with a defensive rebound.
+914,8,Foul,2,Shooting,Shooting foul committed by Traci Carter.
+916,1,Free Throw Made,11,Free Throw 1 of 2,Khadeen Carrington makes free throw 1 of 2.
+917,1,Free Throw Made,12,Free Throw 2 of 2,Khadeen Carrington makes free throw 2 of 2.
+919,8,Foul,2,Shooting,Shooting foul committed by Ismael Sanogo.
+920,2,Free Throw Missed,8,Free Throw 1st of 1-and-1,JaJuan Johnson misses free throw 1st of 1-and-1.
+921,6,Defensive Rebound,,,Angel Delgado with a defensive rebound.
+933,3,Field Goal Made,40,Layup Shot,Ismael Sanogo makes a layup. Isaiah Whitehead with the assist.
+934,7,Turnover,2,Lost Ball,Khadeen Carrington steals the ball from Traci Carter.
+937,8,Foul,2,Shooting,Shooting foul committed by Traci Carter.
+938,11,Timeout,3,Official TV,Official TV timeout.
+939,1,Free Throw Made,11,Free Throw 1 of 2,Isaiah Whitehead makes free throw 1 of 2.
+940,1,Free Throw Made,12,Free Throw 2 of 2,Isaiah Whitehead makes free throw 2 of 2.
+949,3,Field Goal Made,45,Jump Shot,Henry Ellenson makes a 3-point jump shot from 24 feet out. Haanif Cheatham with the assist.
+952,3,Field Goal Made,40,Layup Shot,Angel Delgado makes a layup. Khadeen Carrington with the assist.
+953,7,Turnover,2,Lost Ball,Derrick Gordon steals the ball from Sandy Cohen III.
+954,3,Field Goal Made,40,Layup Shot,Isaiah Whitehead makes a layup. Angel Delgado with the assist.
+959,8,Foul,2,Shooting,Shooting foul committed by Ismael Sanogo.
+960,1,Free Throw Made,13,Free Throw 1 of 3,Henry Ellenson makes free throw 1 of 3.
+961,1,Free Throw Made,14,Free Throw 2 of 3,Henry Ellenson makes free throw 2 of 3.
+962,1,Free Throw Made,15,Free Throw 3 of 3,Henry Ellenson makes free throw 3 of 3.
+969,8,Foul,4,Offensive,Offensive foul committed by Khadeen Carrington.
+970,7,Turnover,,,Khadeen Carrington with a turnover - 
+972,7,Turnover,2,Lost Ball,Khadeen Carrington steals the ball from Henry Ellenson.
+973,3,Field Goal Made,48,Dunk Shot,Khadeen Carrington dunks.
+974,4,Field Goal Missed,45,Jump Shot,Haanif Cheatham misses a jump shot from 4 feet out.
+975,6,Defensive Rebound,,,Angel Delgado with a defensive rebound.
+981,4,Field Goal Missed,45,Jump Shot,Isaiah Whitehead misses a jump shot from 5 feet out.
+982,6,Defensive Rebound,,,Wally Ellenson with a defensive rebound.
+983,8,Foul,2,Shooting,Shooting foul committed by Isaiah Whitehead.
+984,1,Free Throw Made,11,Free Throw 1 of 2,Wally Ellenson makes free throw 1 of 2.
+987,2,Free Throw Missed,12,Free Throw 2 of 2,Wally Ellenson misses free throw 2 of 2.
+988,6,Defensive Rebound,,,Desi Rodriguez with a defensive rebound.
+1007,3,Field Goal Made,45,Jump Shot,Khadeen Carrington makes a jump shot from 17 feet out.
+1008,4,Field Goal Missed,40,Layup Shot,Haanif Cheatham misses a layup.
+1009,5,Offensive Rebound,,,Luke Fischer with an offensive rebound.
+1011,3,Field Goal Made,53,Tip Shot,Luke Fischer makes a tip shot from 1 foot out.
+1015,8,Foul,2,Shooting,Shooting foul committed by Wally Ellenson.
+1016,1,Free Throw Made,11,Free Throw 1 of 2,Khadeen Carrington makes free throw 1 of 2.
+1017,1,Free Throw Made,12,Free Throw 2 of 2,Khadeen Carrington makes free throw 2 of 2.
+1019,4,Field Goal Missed,45,Jump Shot,Haanif Cheatham misses a 3-point jump shot from 25 feet out.
+1020,6,Defensive Rebound,,,Veer Singh with a defensive rebound.
+1028,15,End Period,,,End of the 2nd Half
+1029,19,Game Over,,,End of the Game
