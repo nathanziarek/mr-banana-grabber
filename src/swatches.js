@@ -1,8 +1,9 @@
 exports.swatch = function (file) {
-    var pixels = require('./pixels.js');
-    pixels.read(file, function (a) {
-        console.log(a)
+    require('./pixels.js').read(file, function (a) {
+        require('./importance.js').rate(a, function(a){
+            console.log(a);
+        })
     });
 }
 
-exports.swatch('../images/alaa&m_300.png');
+exports.swatch('../images/test-image.png');
