@@ -2,9 +2,9 @@
 
 var fs = require('fs'),
     request = require('request'),
-    url = "http://cdn-png.si.com/sites/default/files/teams/basketball/cbk/logos/",
-    Canvas = require('canvas'),
-    getColors = require("get-image-colors");
+    url = "http://cdn-png.si.com/sites/default/files/teams/basketball/cbk/logos/";
+    //Canvas = require('canvas'),
+    //getColors = require("get-image-colors");
 
 var data = fs.readFileSync('samples/all-games-today.json');
 
@@ -20,8 +20,8 @@ for (var i = 0; i < events.length; i++) {
 function getAndSave(team) {
     console.log("GET ", team);
     var abbrev = team.toLowerCase();
-    var img = '<img src=' + url + abbrev + '_300.png/>';
-    fs.appendFile('samples/test-getting-images.html', img);
+    //var img = '<img src=' + url + abbrev + '_300.png/>';
+    //fs.appendFile('samples/test-getting-images.html', img);
     request({
         url: url + abbrev + "_300.png",
         encoding: null
@@ -32,7 +32,7 @@ function getAndSave(team) {
                 encoding: 'binary'
             }, function () {
                 console.log("SAVED", abbrev);
-                myColors(body);
+                //myColors(body);
             });
         } else {
             request({
