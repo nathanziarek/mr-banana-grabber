@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/nathanziarek/mr-banana-grabber#readme",
   "dependencies": {
+    "chroma-js": "^1.1.1",
+    "clusterfck": "^0.6.0",
     "pngjs": "^2.2.0"
   }
 }
