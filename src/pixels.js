@@ -1,3 +1,16 @@
+/* read returns a two-dimensional array:
+    [
+        [
+            [255, 255, 255, 255], 
+            [255, 255, 255, 255]
+        ]
+        [
+            [255, 255, 255, 255], 
+            [255, 255, 255, 255]
+        ]
+    ]
+*/
+
 exports.read = function (file, _callback) {
 
     var PNG = require('pngjs').PNG,
