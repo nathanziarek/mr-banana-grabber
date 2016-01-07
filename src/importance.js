@@ -1,3 +1,11 @@
+/* Rate returns an associative object
+    {
+        hash: { r: RED, g: GREEN, b: BLUE, a: ALPHA, score: SCORE },
+        hash: { r: RED, g: GREEN, b: BLUE, a: ALPHA, score: SCORE }
+    }
+*/
+
+
 exports.rate = function (pixelArray, _callback) {
     var y2, x2, returnObj = {};
     for (var y = 0; y < pixelArray.length; y++) {
@@ -11,9 +19,9 @@ exports.rate = function (pixelArray, _callback) {
                         if (pixelArray[y][x].r == pixelArray[y2][x2].r) {
                             if (pixelArray[y][x].g == pixelArray[y2][x2].g) {
                                 if (pixelArray[y][x].b == pixelArray[y2][x2].b) { 
-                                    key = pixelArray[y][x].r +","+pixelArray[y][x].g+","+pixelArray[y][x].b;
-                                    if( !returnObj[ key ] ){ returnObj[ key ] = 0; }
-                                    returnObj[ key ]++;
+                                    hash = pixelArray[y][x].r +","+pixelArray[y][x].g+","+pixelArray[y][x].b;
+                                    if( !returnObj[ hash ] ){ returnObj[ hash ] = pixelArray[y][x]; returnObj[ hash ].score = 0; }
+                                    returnObj[ hash ].score++;
                                 }
                             }
                         }
