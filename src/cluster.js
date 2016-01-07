@@ -23,19 +23,20 @@ Cluster returns an unsorted array
 */
 
 
-exports.cluster = function (pixelHash, clusters, _callback) {
+exports.cluster = function (pixelHash, clusterCount, _callback) {
     var chroma = require("chroma-js"),
         clusteringCalc = [],
         clusterMap = {},
         clusterfck = require("clusterfck"),
-        returnCluster = [];
-    for (key in pixelHash) {
+        returnCluster = [],
+        hash = '',clusterHash = '';
+    for (var key in pixelHash) {
         var cielab = chroma(pixelHash[key].r, pixelHash[key].g, pixelHash[key].b).lab();
         clusteringCalc.push([cielab[1], cielab[2]]);
         hash = cielab[1] + "," + cielab[2];
         clusterMap[hash] = pixelHash[key];
     }
-    var clusters = clusterfck.kmeans(clusteringCalc, clusters);
+    var clusters = clusterfck.kmeans(clusteringCalc, clusterCount);
     for (var cluster = 0; cluster < clusters.length; cluster++) {
         returnCluster.push({ topVal: 0, totalScore: 0, topColor: {}, colors: [] });
         for (var color = 0; color < clusters[cluster].length; color++) {
