@@ -13,9 +13,7 @@ var pixelCount = {},
 
 
 fs.createReadStream('images/lips_300.png')
-    .pipe(new PNG({
-        filterType: 4
-    }))
+    .pipe(new PNG())
     .on('parsed', function () {
         for (var y = 0; y < this.height; y++) {
             for (var x = 0; x < this.width; x++) {
@@ -42,10 +40,6 @@ fs.createReadStream('images/lips_300.png')
 
             }
         }
-
-        rgbColors = Object.keys(pixelCount).sort(function (a, b) {
-            return pixelCount[b] - pixelCount[a]
-        });
         
         cluster();
 
