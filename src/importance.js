@@ -7,7 +7,6 @@
 
 
 exports.rate = function (pixelArray, _callback) {
-    console.log(pixelArray);
     var y2 = 0,
         x2 = 0,
         returnObj = {},
@@ -18,7 +17,9 @@ exports.rate = function (pixelArray, _callback) {
                 continue;
             }
             for (var ym = -1; ym < 2; ym++) {
+
                 for (var xm = -1; xm < 2; xm++) {
+
                     y2 = y + ym;
                     x2 = x + xm
                     if (y2 > -1 && x2 > -1 && y2 < pixelArray.length && x2 < pixelArray[0].length) {
@@ -39,8 +40,6 @@ exports.rate = function (pixelArray, _callback) {
             }
         }
     }
-
-    console.log('importance', returnObj);
 
     _callback(returnObj);
 }

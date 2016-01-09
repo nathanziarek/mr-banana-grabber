@@ -29,7 +29,9 @@ exports.cluster = function (pixelHash, clusterCount, _callback) {
         clusterMap = {},
         clusterfck = require("clusterfck"),
         returnCluster = [],
-        hash = '',clusterHash = '';
+        hash = '',
+        clusterHash = '',
+        clusterCount = Math.min(clusterCount, Object.keys(pixelHash).length);
     for (var key in pixelHash) {
         var cielab = chroma(pixelHash[key].r, pixelHash[key].g, pixelHash[key].b).lab();
         clusteringCalc.push([cielab[1], cielab[2]]);
@@ -37,17 +39,23 @@ exports.cluster = function (pixelHash, clusterCount, _callback) {
         clusterMap[hash] = pixelHash[key];
     }
     var clusters = clusterfck.kmeans(clusteringCalc, clusterCount);
+
     for (var cluster = 0; cluster < clusters.length; cluster++) {
-        returnCluster.push({ topVal: 0, totalScore: 0, topColor: {}, colors: [] });
+        returnCluster.push({
+            topVal: 0,
+            totalScore: 0,
+            topColor: {},
+            colors: []
+        });
         for (var color = 0; color < clusters[cluster].length; color++) {
-            clusterHash = clusters[cluster][color][0]+","+clusters[cluster][color][1];
-            returnCluster[cluster].totalScore += clusterMap[ clusterHash ].score;
-            returnCluster[cluster].colors.push( clusterMap[ clusterHash ] );
-            if( returnCluster[cluster].topVal < clusterMap[ clusterHash ].score) {
-                returnCluster[cluster].topVal = clusterMap[ clusterHash ].score;
-                returnCluster[cluster].topColor.r = clusterMap[ clusterHash ].r;
-                returnCluster[cluster].topColor.g = clusterMap[ clusterHash ].g;
-                returnCluster[cluster].topColor.b = clusterMap[ clusterHash ].b;
+            clusterHash = clusters[cluster][color][0] + "," + clusters[cluster][color][1];
+            returnCluster[cluster].totalScore += clusterMap[clusterHash].score;
+            returnCluster[cluster].colors.push(clusterMap[clusterHash]);
+            if (returnCluster[cluster].topVal < clusterMap[clusterHash].score) {
+                returnCluster[cluster].topVal = clusterMap[clusterHash].score;
+                returnCluster[cluster].topColor.r = clusterMap[clusterHash].r;
+                returnCluster[cluster].topColor.g = clusterMap[clusterHash].g;
+                returnCluster[cluster].topColor.b = clusterMap[clusterHash].b;
             }
         }
     }
