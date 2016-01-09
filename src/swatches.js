@@ -37,7 +37,7 @@ exports.swatch = function (file, clusters, _callback) {
                     minBl = 100000,
                     minWh = 100000;
                 c.sort(function (a, b) {
-                    return a.totalScore - b.totalScore
+                    return b.totalScore - a.totalScore
                 })
                 for (var i = 0; i < c.length; i++) {
                     if (maxScore < c[i].totalScore) {
